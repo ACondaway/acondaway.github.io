@@ -6,6 +6,7 @@ export interface AboutMe {
   email: string;
   imageUrl?: string;
   blogUrl?: string;
+  galleryUrl?: string;
   cvUrl?: string;
   googleScholarUrl?: string;
   twitterUsername?: string;
@@ -18,7 +19,7 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "ACondawayUNo",
+  name: "ACondawayUNo \n Congsheng Xu",
   title: "Incoming Ph.D. Student",
   institution: "Shanghai Jiao Tong University",
   // Note that links work in the description
@@ -30,7 +31,8 @@ export const aboutMe: AboutMe = {
   googleScholarUrl: "https://scholar.google.com/citations?user=PYFaxeoAAAAJ&hl=en",
   githubUsername: "ACondaway",
   linkedinUsername: "congsheng-xu-85944036b",
-  blogUrl: "https://vapour-x.cn",
+  blogUrl: "https://vapour-x.cn/authors/acondaway/",
+  galleryUrl: "/gallery",
   institutionUrl: "https://www.sjtu.edu.cn",
   // altName: "",
   // secretDescription: "I like dogs.",

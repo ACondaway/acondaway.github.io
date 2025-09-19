@@ -16,15 +16,12 @@ export const publicationData: Publication[] = [
   {
     year: "2025",
     conference: "IROS Workshop",
-    title: "Scalable Causal Discovery in High-Dimensional Time Series",
-    authors: "Jane Smith, Sarah Johnson, Yue Zhang",
-    paperUrl: "https://arxiv.org/abs/2409.15476",
-    codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    title: "InsertScale: A Benchmark towards Foundation Visuo-Tactile Policy for Insertion Task",
+    authors: "<b>Congsheng Xu*</b>, Jingxiang Guo*, Baijun Chen*,  Liuhaichen Yang, Zhen Zou, Yuzhang Li, Jieji Ren, Yiming Wang, Yichao Yan, Yao Mu†, Xiaokang Yang†",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "Using causal discovery to find the causal structure of high-dimensional time series data.",
+    tldr: "Propose a visuo-tactile benchmark and scalable policy learning framework for insertion tasks, providing standardized tasks, metrics, and multi-modal datasets to evaluate and train foundation policies.",
     imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    award: "🏆 Best Paper Award",
+      "/images/InsertScale.png",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },

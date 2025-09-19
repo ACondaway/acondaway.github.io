@@ -35,7 +35,10 @@ export function PublicationEntry({
           )}
         </div>
         <h3 className="font-serif text-md mb-3">{publication.title}</h3>
-        <p className="text-sm text-zinc-600 mb-4">{publication.authors}</p>
+        <p 
+          className="text-sm text-zinc-600 mb-4 [&_b]:font-semibold [&_b]:text-zinc-800"
+          dangerouslySetInnerHTML={{ __html: publication.authors }}
+        />
         <div className="flex flex-row gap-6">
           {publication.paperUrl && (
             <a
