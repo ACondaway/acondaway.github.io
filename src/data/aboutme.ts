@@ -27,7 +27,7 @@ export const aboutMe: AboutMe = {
   email: "acondaway@sjtu.edu.cn",
   imageUrl:
     "https://avatars.githubusercontent.com/u/115391544?v=4",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
+  googleScholarUrl: "https://scholar.google.com/citations?user=PYFaxeoAAAAJ&hl=en",
   githubUsername: "ACondaway",
   linkedinUsername: "congsheng-xu-85944036b",
   blogUrl: "https://vapour-x.cn",
