@@ -15,7 +15,7 @@ export const educationData: Education[] = [
     degree: "Bachelor in Information Engineering",
   },
   {
-    year: "2026—?",
+    year: "From 2026",
     institution: "Shanghai Jiao Tong University",
     degree: "Incoming Ph.D. Student",
     advisor: "Prof. Xiaokang Yang & Prof. Yao Mu",
