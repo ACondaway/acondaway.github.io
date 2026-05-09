@@ -15,6 +15,28 @@ export interface Publication {
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
+    year: "2026",
+    conference: "ICRA Workshop",
+    title: "π0-EqM: Equilibrium Matching for Closed-Loop Vision-Language-Action Control",
+    authors: "Huanming Liu*, <b>Congsheng Xu*</b>, Jianmin Ji†, Yao Mu†",
+    tldr: "Propose a visuo-tactile benchmark and scalable policy learning framework for insertion tasks, providing standardized tasks, metrics, and multi-modal datasets to evaluate and train foundation policies.",
+    imageUrl:
+      "/images/pieqm.png",
+    award: "Accepted by ICRA'26 Workshop on Multimodal Embodied Interaction in Robots!",
+  },
+  {
+    year: "2026",
+    conference: "ICRA Workshop",
+    title: "UniVTAC: A Unified Simulation Platform for Visuo-Tactile Manipulation Data Generation, Learning, and Benchmarking",
+    authors: "Baijun Chen, Weijie Wan, Tianxing Chen, Xianda Guo, Congsheng Xu, Yuanyang Qi, Haojie Zhang, Longyan Wu, Tianling Xu, Zixuan Li, Yizhe Wu, Rui Li, Xiaokang Yang, Ping Luo, Wei Sui, Yao Mu",
+    tldr: "we propose UniVTAC, a simulation-based visuo-tactile data synthesis platform that supports three commonly used visuo-tactile sensors and enables scalable and controllable generation of informative contact interactions.",
+    imageUrl:
+      "/images/univtac.png",
+    award: "Accepted by ICRA ViTac'26 Workshop <b>Best Paper Award</b>!",
+    paperUrl: "https://arxiv.org/pdf/2602.10093",
+    projectUrl: "https://univtac.github.io/",
+  },
+  {
     year: "2025",
     conference: "IROS Workshop",
     title: "InsertScale: A Benchmark towards Foundation Visuo-Tactile Policy for Insertion Task",
