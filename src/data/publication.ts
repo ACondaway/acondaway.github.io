@@ -19,7 +19,7 @@ export const publicationData: Publication[] = [
     conference: "ICRA Workshop",
     title: "π0-EqM: Equilibrium Matching for Closed-Loop Vision-Language-Action Control",
     authors: "Huanming Liu*, <b>Congsheng Xu*</b>, Jianmin Ji†, Yao Mu†",
-    tldr: "Propose a visuo-tactile benchmark and scalable policy learning framework for insertion tasks, providing standardized tasks, metrics, and multi-modal datasets to evaluate and train foundation policies.",
+    tldr: "We present π0-EqM, which replaces the flow-matching expert in π0 with an Equilibrium Matching (EqM) decoder while leaving the upstream VLA stack unchanged.",
     imageUrl:
       "/images/pieqm.png",
     award: "Accepted by ICRA'26 Workshop on Multimodal Embodied Interaction in Robots!",
